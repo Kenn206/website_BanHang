@@ -65,6 +65,9 @@ strong {
     width: 50%;
     text-align: justify;
 }
+.bbq .container .image {
+    display: flex;
+}
 .bbq .container h2 {
     font-weight: 700;
 }
@@ -82,13 +85,17 @@ strong {
 .bbq .container .img a {
     position: absolute;
     bottom: 5%;
-    left: 25%;
+    left: 70px;
     padding: 5px 10px;
     background-color: #0A0A0A;
     font-size: 13px;
     border-radius: 5px;
-    width: 50%;
+    width: 145px;
     text-align: center;
+}
+.bbq .container .img a:hover {
+    background-color: #333232;
+    box-shadow: 0px 0px 15px rgb(37, 37, 37);
 }
 .section-menu .container-fluid {
     margin-top: 50px;
@@ -115,13 +122,14 @@ strong {
     margin-bottom: 20px;
 }
 .section-menu .container-fluid .container .text .button {
-    width: 21%;
+    width: 140px;
     padding: 5px 20px;
     border: 2px solid #92979c;
     border-radius: 5px;
     text-align: center;
     transition: all 0.5s;
     cursor: pointer;
+    user-select: none;
 }
 .section-menu .container-fluid .container .text .button a {
     color: #7e8183;
@@ -133,4 +141,90 @@ strong {
 }
 .section-menu .container-fluid .container .img_menu img:hover {
     filter: grayscale(0%);
+}
+
+/* responsive */
+
+@media screen and (max-width: 1024px) {
+    
+    .lienhe {
+        display: none;
+    }
+    .style .container .header .logo a h2 {
+        font-size: 20px;
+    }
+    .bbq .container p {
+        margin: 0;
+    }
+    .bbq .container .img a {
+        left: 20%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .style {
+        position: relative;
+        height: auto;
+    }
+    .style .container .header {
+        height: auto;
+    }
+    .style .container .header .menu {
+        padding: 15px;       
+    }
+    .style .container .header .menu .nav-list {
+        display: none;
+    }
+    .style .container .header .menu .menu_icon {
+        display: block !important;
+    }
+    .style .container .header .menu .menu_icon .menu_icon_drop {
+        position: absolute;
+        display: none;
+        top: 70px;
+        left: 0;
+        width: 768px;
+        height: auto;
+        background-color: #494848;
+        z-index: 1;
+    }
+    .style .container .header .menu .menu_icon .menu_icon_drop .nav_icon_drop li {
+        padding: 16px 20px;
+        list-style: none;
+        border-bottom: 1px solid #666666;
+    }
+    .style .container .header .menu .menu_icon .menu_icon_drop .nav_icon_drop a {
+        padding: 17px 83% 17px 0;
+    }
+    .style .container .header .menu:hover .menu_icon_drop {
+        display: block;
+    }
+    .bbq .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .bbq .container .text {
+        width: 100%;
+    }
+    .bbq .container .image {
+        margin: 20px 0;
+    }
+    .bbq .container .img a {
+        left: 15%;
+        width: 200px;
+        height: 50px;
+        padding: 0;
+        line-height: 45px;
+    }
+    .section-menu .container-fluid .container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .section-menu .container-fluid .container .button {
+        margin: 20px 0;
+        width: 100% !important;
+    }
+    .section-menu .container-fluid .container .img_menu img {
+        filter: grayscale(0%);
+    }
 }
