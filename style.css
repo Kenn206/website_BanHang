@@ -1,0 +1,136 @@
+html a {
+    text-decoration: none;
+    color: white;
+}
+strong {
+    color: #666666;
+}
+.style {
+    width: 100%;
+    height: 100px;
+    background-color: #0A0A0A;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;  
+}
+.header .logo {
+    cursor: pointer;
+    user-select: none;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu .nav-list {
+    display: flex;
+    margin: 0;
+}
+.nav-list li {
+    padding: 20px;
+    list-style: none;
+    transition: all 0.8s;
+}
+.nav-list li:nth-child(1) {
+    background-color: #494848;
+    border-radius: 10px;
+}
+.lienhe {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.nav-list li:hover, .lienhe:hover {
+    background-color: #494848;
+    border-radius: 10px;
+}
+.up img {
+    width: 100%;
+    margin: 0px auto;
+}
+.down img {
+    width: 100%;
+}
+.bbq .container {
+    display: flex;
+    align-items: center;
+}
+.bbq .container .text {
+    width: 50%;
+    text-align: justify;
+}
+.bbq .container h2 {
+    font-weight: 700;
+}
+.bbq .container .img {
+    position: relative;
+    overflow: hidden;
+}
+.bbq .container .img img {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.bbq .container .img img:hover{
+    transform: scale(1.1);
+}
+.bbq .container .img a {
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    padding: 5px 10px;
+    background-color: #0A0A0A;
+    font-size: 13px;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+}
+.section-menu .container-fluid {
+    margin-top: 50px;
+    background-color: #0A0A0A;
+}
+.section-menu .container-fluid .container {
+    padding: 20px 0 40px 0;
+    display: flex;
+    color: #777770;
+}
+.section-menu .container-fluid .container .img_menu img {
+    margin: 10px;
+    filter: grayscale(100%);
+    transition: all 1s;
+    width: 250px !important;
+}
+.section-menu .container-fluid .container .text {
+    margin: 0 60px;
+    padding-top: 20px;
+    text-align: justify;
+}
+.section-menu .container-fluid .container .text h2 {
+    color: #C0C0C0;
+    margin-bottom: 20px;
+}
+.section-menu .container-fluid .container .text .button {
+    width: 21%;
+    padding: 5px 20px;
+    border: 2px solid #92979c;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.section-menu .container-fluid .container .text .button a {
+    color: #7e8183;
+    font-weight: 600;
+}
+.section-menu .container-fluid .container .text .button:hover {
+    background-color: white;
+    border: 2px solid white;
+}
+.section-menu .container-fluid .container .img_menu img:hover {
+    filter: grayscale(0%);
+}
