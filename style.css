@@ -142,7 +142,212 @@ strong {
 .section-menu .container-fluid .container .img_menu img:hover {
     filter: grayscale(0%);
 }
+.restaurant {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 80px 0;
+}
+.restaurant-text {
+    text-align: justify;
+}
+.restaurant-text h2 {
+    font-weight: 700;
+}
+.restaurant-text p {
+    margin: 25px 0;
+}
+.restaurant-text a {
+    padding: 8px 20px;
+    border: 2px solid #7e8183;
+    border-radius: 5px;
+    color: #7e8183;
+    transition: all 0.7s;
+}
+.restaurant-text a:hover {
+    border: 2px solid white;
+}
+.restaurant-image {
+    display: flex;
+    justify-content: space-evenly;
+}
+.restaurant-image img {
+    margin: 0 10px;
+    width: 46%;
+}
+.nhapemail_dangky {
+    background-image: url(./image/banner-nhahang.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin: 20px 0;
+    filter: grayscale(80%);
+}
+.nhapemail_dangky-content {
+    display: flex;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+}
+.nhapemail_dangky-content-text {
+    color: white;
+    text-shadow: 0px 0px 20px gray;
+    text-align: center;
+}
+.nhapemail_dangky-content-text p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nhapemail_dangky-content-input input {
+    width: 25rem;
+    padding: 10px 0px 10px 20px;
+    margin: 20px;
+    background-color: #ece7e6;
+    border: none;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.nhapemail_dangky-content-input button {
+    width: 200px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: none;
+}
+.nhapemail_dangky-content-input a {
+    color: black;
+    font-weight: 700;
+}
+.nhapemail_dangky-content-input button:hover {
+    background-color: #EFECE8;
+    box-shadow: 0px 0px 15px #EFECE8;
+}
+.korea-content_up {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 20px 0;
+}
+.korea-content_up-image {
+    background-image: url(./image/korea-content_up-image.jpg);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 350px;
+}
+.korea-content_up-text {
+    width: 60%;
+    padding: 0 20px;
+    text-align: justify;
+}
+.korea-content_up-text p {
+    margin: 20px 0;
+}
+.korea-content_down {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0 50px 0;
+}
+.korea-content_down img {
+    width: 24%;
+}
 
+.settable {
+    background-image: url(./image/banner-nhahang.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-black {
+    opacity: 0.7;
+}
+.settable-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.settable-text {
+    width: 48%;
+    color: white;
+    padding: 40px 0;
+}
+.settable-text .goiydatban {
+    padding: 0;
+}
+.settable-text .goiydatban li {
+    padding: 10px 0;
+    list-style: none;
+    border-bottom: 1px solid gray;
+}
+.settable-input {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.settable-input .input-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.settable-input .input-child input {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 0px 10px 5px;
+}
+.box-input-checkbox {
+    display: flex;
+    justify-content: space-between;
+}
+.box-input-checkbox p {
+    margin: 5px;
+}
+
+.settable-input .datban {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #eccd40;
+}
+.settable-input .datban a {
+    color: black;
+    font-weight: 700;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.settable-input .datban:hover {
+    background-color: #EFECE8;
+    box-shadow: 0px 0px 15px #EFECE8;
+}
+footer {
+    background-color: black;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(136, 134, 134);
+    font-size: 13px;
+    font-family: sans-serif;
+    padding: 5px 0;
+}
+.footer p {
+    padding: 0;
+    margin: 5px;
+}
+.footer .banquyen button {
+    background-color: #333;
+    border: none;
+    width: 130px;
+    border-radius: 5px;
+    opacity: 0.6;
+    padding: 10px;
+}
+.footer .banquyen button a {
+    padding: 10px 5px;
+}
+.footer .banquyen button a:hover {
+    color: black;
+}
+.footer .banquyen button:hover {
+    box-shadow: 0px 0px 15px white;
+    background-color: white;
+}
 /* responsive */
 
 @media screen and (max-width: 1024px) {
@@ -158,6 +363,13 @@ strong {
     }
     .bbq .container .img a {
         left: 20%;
+    }
+    .restaurant-text p {
+        margin: 10px 0;
+    }
+    .nhapemail_dangky-content {
+        display: flex;
+        flex-direction: column;
     }
 }
 @media screen and (max-width: 768px) {
@@ -226,5 +438,34 @@ strong {
     }
     .section-menu .container-fluid .container .img_menu img {
         filter: grayscale(0%);
+    }
+    .restaurant-content {
+        flex-direction: column;
+    }
+    .restaurant-text, .restaurant-image {
+        width: 100% !important;
+    }
+    .restaurant-image {
+        padding: 20px 0;
+    }
+    .restaurant-image img {
+        width: 45%;
+    }
+    .korea-content_up {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+    .korea-content_up-text {
+        padding-right: 0;
+    }
+    .settable-content {
+        flex-direction: column;
+    }
+    .settable-text, .settable-input {
+        width: 100%;
+    }
+    .settable-text, .settable-input .datban {
+        width: 100%;
     }
 }
