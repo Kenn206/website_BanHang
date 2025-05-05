@@ -1,36 +1,38 @@
-🛒 Website Bán Hàng - Clone Giao Diện Bán Hàng Chuẩn GenZ
-🔥 Đây là project thực hành clone lại giao diện website bán hàng, từ phần header, danh mục sản phẩm, đến giao diện giỏ hàng và footer — đầy đủ, đẹp mắt, dễ sử dụng và chuẩn chỉnh như các trang bán hàng nổi tiếng!
+🛒 Clone Header Shopee - Giao Diện Bắt Trend Chuẩn GenZ
 
-📌 Tính Năng Đã Làm:
-Giao diện trang bán hàng với header, navbar, giỏ hàng đẹp mắt
+🔥 Đây là project thực hành clone lại phần **header của trang Shopee**, mô phỏng từ thanh tìm kiếm, logo, icon giỏ hàng đến phần navbar — đầy đủ, đẹp gọn, chuẩn chỉnh!
 
-Responsive chuẩn chỉnh, mượt mà trên cả desktop và mobile
+---
 
-Hover hiệu ứng đẹp, UI cực kỳ dễ nhìn
+## 📌 Tính năng đã làm:
 
-Thông tin sản phẩm được trình bày rõ ràng, dễ dàng xem và đặt hàng
+* Giao diện giống Shopee phần đầu trang (header)
+* Responsive nhẹ nhàng, nhìn mượt trên mobile
+* Hover đẹp mắt, UI dễ nhìn
+* Code clean, chia file gọn gàng
 
-Code sạch, phân chia thành các file hợp lý
+---
 
-🛠 Công Nghệ Sử Dụng:
-HTML + CSS cơ bản
+## 🛠 Công nghệ sử dụng:
 
-Flexbox + một chút Grid cho layout
+* **HTML + CSS** cơ bản
+* **Flexbox** + một chút **Grid**
+* **Font Awesome** để xử lý icon
+* Không dùng JS → focus vào layout và UI
 
-Font Awesome để xử lý icon
+---
 
-JavaScript hỗ trợ tính năng đặt hàng và tương tác với giỏ hàng
+## 📱 Preview ngay tại đây:
 
-📱 Preview Ngay Tại Đây:
-🔗 Xem Web
+🔗 [Xem web](https://kenn206.github.io/cloneHeaderShopee/)
 
-💡 Mục Tiêu:
-Thực hành giao diện bán hàng, học cách tạo ra website bán hàng đẹp mắt
+---
 
-Làm quen với việc thiết kế UI đẹp, dễ nhìn, và cải thiện kỹ năng responsive
+## 💡 Mục tiêu:
 
-Áp dụng các kỹ thuật layout như Flexbox và Grid để tạo ra giao diện mượt mà
+Thực hành layout nâng cao và làm quen với việc **clone UI** từ những website lớn như Shopee
 
-🧠 "Code phải đẹp, giao diện phải bắt mắt, khách hàng phải tìm được món đồ mình muốn trong tích tắc."
+---
+
+🧠 *"Code là phải cháy, giao diện phải đẹp, bug phải ít, và mắt người dùng phải sáng bừng khi nhìn thấy"*
 — Kenn206
-
