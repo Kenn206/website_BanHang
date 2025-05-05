@@ -1,38 +1,45 @@
-🛒 Clone Header Shopee - Giao Diện Bắt Trend Chuẩn GenZ
+---
 
-🔥 Đây là project thực hành clone lại phần **header của trang Shopee**, mô phỏng từ thanh tìm kiếm, logo, icon giỏ hàng đến phần navbar — đầy đủ, đẹp gọn, chuẩn chỉnh!
+# 🛒 Website Bán Hàng - Clone Giao Diện Bán Hàng Chuẩn GenZ
+
+🔥 Đây là project thực hành **clone lại giao diện website bán hàng**, từ phần header, danh mục sản phẩm, đến giao diện giỏ hàng và footer — đầy đủ, đẹp mắt, dễ sử dụng và chuẩn chỉnh như các trang bán hàng nổi tiếng!
 
 ---
 
-## 📌 Tính năng đã làm:
+## 📌 Tính Năng Đã Làm:
 
-* Giao diện giống Shopee phần đầu trang (header)
-* Responsive nhẹ nhàng, nhìn mượt trên mobile
-* Hover đẹp mắt, UI dễ nhìn
-* Code clean, chia file gọn gàng
+* Giao diện trang bán hàng với header, navbar, giỏ hàng đẹp mắt
+* Responsive chuẩn chỉnh, mượt mà trên cả desktop và mobile
+* Hover hiệu ứng đẹp, UI cực kỳ dễ nhìn
+* Thông tin sản phẩm được trình bày rõ ràng, dễ dàng xem và đặt hàng
+* Code sạch, phân chia thành các file hợp lý
 
 ---
 
-## 🛠 Công nghệ sử dụng:
+## 🛠 Công Nghệ Sử Dụng:
 
 * **HTML + CSS** cơ bản
-* **Flexbox** + một chút **Grid**
+* **Flexbox** + một chút **Grid** cho layout
 * **Font Awesome** để xử lý icon
-* Không dùng JS → focus vào layout và UI
+* **JavaScript** hỗ trợ tính năng đặt hàng và tương tác với giỏ hàng
 
 ---
 
-## 📱 Preview ngay tại đây:
+## 📱 Preview Ngay Tại Đây:
 
-🔗 [Xem web](https://kenn206.github.io/cloneHeaderShopee/)
-
----
-
-## 💡 Mục tiêu:
-
-Thực hành layout nâng cao và làm quen với việc **clone UI** từ những website lớn như Shopee
+🔗 [Xem Web](https://kenn206.github.io/website_BanHang/)
 
 ---
 
-🧠 *"Code là phải cháy, giao diện phải đẹp, bug phải ít, và mắt người dùng phải sáng bừng khi nhìn thấy"*
+## 💡 Mục Tiêu:
+
+* Thực hành giao diện bán hàng, học cách tạo ra website bán hàng đẹp mắt
+* Làm quen với việc thiết kế UI đẹp, dễ nhìn, và cải thiện kỹ năng responsive
+* Áp dụng các kỹ thuật layout như Flexbox và Grid để tạo ra giao diện mượt mà
+
+---
+
+🧠 *"Code phải đẹp, giao diện phải bắt mắt, khách hàng phải tìm được món đồ mình muốn trong tích tắc."*
 — Kenn206
+
+---
